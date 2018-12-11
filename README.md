@@ -1,6 +1,4 @@
-/**************************************************************
-****************** WELCOME TO MY PORTFOLIO ********************
-***************************************************************/
+<h1>WELCOME TO MY PORTFOLIO</h1> 
 
 You'll find here my current and past projects built in solo or in team !
 
