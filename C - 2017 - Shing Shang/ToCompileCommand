@@ -1,0 +1,1 @@
+gcc main.c display.c fileengine.c gameengine.c starter.c  -o main
