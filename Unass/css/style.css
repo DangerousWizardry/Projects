@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Sunflower:300');
+body{
+	font-family: 'Raleway', sans-serif;
+}
+body::-webkit-scrollbar { 
+	display: none; 
+}
+header{
+	font-family: 'Sunflower', sans-serif;
+	height: 123px;
+	width: 100%;
+	top: 0px;
+	display: block;
+	background-color: #fff;
+	position: fixed;
+	z-index: 99;
+}
+header img{
+	height: 120px;
+}
+header > .responsivebars {
+        display: none;
+    }
+
+header > .column {
+	width: 33%;
+	display: inline-block;
+}
+header > .column.text {
+	position: relative;
+	top:-50px;
+}
+
+header > .column > div{
+	margin-top: 1.5em;
+	font-size: 20px;
+}
+
+header > .column > div > table{
+	display: inline-table;
+	line-height: 1em;
+	position: relative;
+	top:-10px;
+}
+header > .column{
+	font-size: 20px;
+}
+nav{
+	border-radius: 10px;
+	position: absolute;
+	top: 6em;
+	z-index: 10;
+}
+.ui.menu{
+	font-family: 'Sunflower', sans-serif;
+	font-size: 18px;
+}
+.ui.menu.blue.inverted{
+	background-color: #234283;
+}
+#intro{
+	margin-top: 30px;
+	background-image: url("../assets/img1.jpg");
+	background-attachment: fixed;
+	background-position: -200px -250px;
+	height: 650px;
+}
+#intro h1{
+	padding-top: 10em;
+	text-align: center;
+	color: #fff;
+}
+#chapter{
+	background-color: #f6f6f6;
+	min-height: 350px;
+	padding: 2em 0;
+}
+#chapter > .ui .grid {
+	margin: 0 1em !important;
+}
+#chapter .ui.segment{
+	min-height: 320px;
+}
+#chapter .segment .segbody{
+	min-height: 260px;
+}
+#team{
+	background-image: url("../assets/team.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+}
+#team h1{
+	padding-top: 7em;
+	text-align: center;
+	color: #fff;
+}
+#content{
+	padding: 60px 0;
+	background-color: #f6f6f6;
+}
+#content h2{
+	margin-top: 0px;
+}
+.marquee {
+  width: 100%;
+  overflow: hidden;
+}
+footer{
+	height: 4em;
+	text-align: center;
+	background-color: #fff;
+	color: #000;
+	font-size: 15px;
+	width: 100%;
+	display: block;
+	
+}
+footer img{
+	height: 3em;
+}
+footer >.logo,footer .social{
+	display: inline-block;
+	width: 24%;
+}
+footer > .legal{
+	display: inline-block;
+	width: 50%;
+	position: relative;
+	top: -1em;
+}
+footer .social{
+	position: relative;
+	top: -1em;
+}
+footer .social a{
+	color: #555;
+}
+footer .logo{
+	position: relative;
+	top: 0.3em;
+}
+.admin > footer .legal, .admin > footer .social, .admin > footer .logo{
+	top:0.5em;
+}
+.admin >header{
+	height: 120px;
+}
+.admin > .pusher{
+	padding-bottom: 50px;
+}
+@media only screen and (max-width: 768px) {
+	header{
+	font-family: 'Sunflower', sans-serif;
+	height: 130px;
+	width: 100%;
+	display: block;
+	background-color: #fff;
+	}
+    .computeronly{
+    	display: none!important;
+	}
+	header > .responsivebars{
+		display: inline-block;
+		width: 10%;
+		position: fixed;
+		top: 40px;
+		left: 10px;
+		color: #234283 !important;
+		text-align: center;
+		z-index: 999;
+	}
+	header > .responsivebars > i{
+		cursor: pointer;
+	}
+	header > .column {
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	}
+	footer > .social{
+	display: none;
+	}
+	footer > .logo{
+		top: 0.5em;
+		display: inline-block;
+		width: 18%;
+	}
+	footer > .legal{
+		position: static;
+		display: inline-block;
+		font-size: 1em;
+		width: 80%;
+		text-align: left;
+	}
+}
+/* Tools */
+.center{
+	text-align: center;
+}
+.iblock{
+	display: inline-block !important;
+}
+.inl{
+	display: inline;
+}
+.inl.nolih{
+	line-height: 0.5em;
+}
+.mtop50{
+	margin-top: 50px;
+}
